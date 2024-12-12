@@ -19,12 +19,11 @@
 ## Overview
 
 The Ephemeral Validator is a Solana Virtual Machine Validator that clones accounts and programs just-in-time and settles state to a reference cluster. 
-It is designed to be used in a MagicBlock [Ephemeral Rollup](https://docs.magicblock.gg/introduction) instance to bring potentially anything on Solana, but can also be used as a super-charged [development](https://luzid.app/) environment.
-
+It is designed to be used in a MagicBlock [Ephemeral Rollup](https://docs.magicblock.gg/introduction) instance to build any type of applications entirely on Solana, but can also be used as a super-charged [development](https://luzid.app/) environment
 
 ## Ephemeral Rollups
 
-Ephemeral Rollups extend Solana by enabling the Solana Virtual Machine (SVM) to replace centralized servers. They allow to use the SVM as a serverless, elastic compute for real-time use cases like gaming, finance, and DePIN, while keeping all smart contracts and state on Solana.
+Ephemeral Rollups extend Solana by enabling the Solana Virtual Machine (SVM) to replace centralized servers. They allow to use the SVM as a serverless, elastic compute for real-time use cases like fully onchain gaming, trustless high-frequency finance, decentralized social networks etc, while keeping all smart contracts and state on Solana.
 
 The core intuition is that by harnessing the SVM’s account structure and its capacity for parallelization, we can split the app/game state into shards. Users can lock one or multiple accounts to temporarily transfer the state to an auxiliary layer, which we define as the “ephemeral rollup”, a configurable dedicated runtime.
 
