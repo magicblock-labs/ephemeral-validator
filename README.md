@@ -11,7 +11,6 @@
 
   <p>
     <a href="https://docs.magicblock.gg/Accelerate/ephemeral_rollups"><img alt="Documentation" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
-    <a href="https://github.com/magicblock-labs/bolt/issues"><img alt="Issues" src="https://img.shields.io/github/issues/magicblock-labs/ephemeral-validator?color=blueviolet" /></a>
     <a href="https://discord.com/invite/MBkdC3gxcv"><img alt="Discord Chat" src="https://img.shields.io/discord/943797222162726962?color=blueviolet" /></a>
   </p>
 
@@ -112,39 +111,19 @@ $ cargo test --test 01_invocations test_schedule_commit_directly_with_single_ix 
 
 ## Disclaimer
 
-All claims, content, designs, algorithms, estimates, roadmaps,
-specifications, and performance measurements described in this project
-are done with the MagicBlock Labs, Pte. Ltd. (“ML”) good faith efforts. It is up to
-the reader to check and validate their accuracy and truthfulness.
-Furthermore, nothing in this project constitutes a solicitation for
-investment.
+All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project
+are done with the MagicBlock Labs, Pte. Ltd. (“ML”) good faith efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore, nothing in this project constitutes a solicitation for investment.
 
-Any content produced by ML or developer resources that ML provides are
-for educational and inspirational purposes only. ML does not encourage,
-induce or sanction the deployment, integration or use of any such
-applications (including the code comprising the MagicBlock blockchain
-protocol) in violation of applicable laws or regulations and hereby
-prohibits any such deployment, integration or use. This includes the use of
-any such applications by the reader (a) in violation of export control
-or sanctions laws of the United States or any other applicable
-jurisdiction, (b) if the reader is located in or ordinarily resident in
-a country or territory subject to comprehensive sanctions administered
-by the U.S. Office of Foreign Assets Control (OFAC), or (c) if the
-reader is or is working on behalf of a Specially Designated National
-(SDN) or a person subject to similar blocking or denied party
-prohibitions.
+Any content produced by ML or developer resources that ML provides are for educational and inspirational purposes only. ML does not encourage, induce or sanction the deployment, integration or use of any such applications (including the code comprising the MagicBlock blockchain protocol) in violation of applicable laws or regulations and hereby prohibits any such deployment, integration or use. This includes the use of any such applications by the reader (a) in violation of export control or sanctions laws of the United States or any other applicable jurisdiction, (b) if the reader is located in or ordinarily resident in a country or territory subject to comprehensive sanctions administered by the U.S. Office of Foreign Assets Control (OFAC), or (c) if the reader is or is working on behalf of a Specially Designated National (SDN) or a person subject to similar blocking or denied party prohibitions.
 
-The reader should be aware that U.S. export control and sanctions laws prohibit
-U.S. persons (and other persons that are subject to such laws) from transacting
-with persons in certain countries and territories or that are on the SDN list.
-Accordingly, there is a risk to individuals that other persons using any of the
-code contained in this repo, or a derivation thereof, may be sanctioned persons
-and that transactions with such persons would be a violation of U.S. export
-controls and sanctions law.
+The reader should be aware that U.S. export control and sanctions laws prohibit U.S. persons (and other persons that are subject to such laws) from transacting with persons in certain countries and territories or that are on the SDN list. Accordingly, there is a risk to individuals that other persons using any of the code contained in this repo, or a derivation thereof, may be sanctioned persons and that transactions with such persons would be a violation of U.S. export controls and sanctions law.
 
 ## Under construction
 
 The Ephemeral Validator is in active development, so all APIs are subject to change. This code is unaudited. Use at your own risk.
+
+The most up-to-date version of the ephemeral validator is developed in a private repository. We will periodically update this repository with the latest changes. If you wish to build from the latest version or report vulnerabilities or improvements, please contact us on Discord or Twitter.
+
 
 ## Open Source
 
