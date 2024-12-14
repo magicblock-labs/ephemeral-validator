@@ -28,7 +28,7 @@
   - prior to 1.9 higher worked better, but that issue may have been fixed now which means we
   could use a value more simular to 0.8 * CPU_CORES or similar `num_cpus::get() * 0.8` provided
   we don't have a bunch of other (rayon) threads
-  > Initially, it was extremelly high 24. We have a lot of cpu cores on our server so we can afford such value. On v1.8 it worked without any problem, I monitored our validator from time to time and saw that it produced decent blocks with up to 4.4k transactions per block.
+  > Initially, it was extremely high 24. We have a lot of cpu cores on our server so we can afford such value. On v1.8 it worked without any problem, I monitored our validator from time to time and saw that it produced decent blocks with up to 4.4k transactions per block.
 
 ### Included Pieces we don't Need for now
 
